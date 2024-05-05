@@ -66,10 +66,10 @@
        height: 10px;
        background-color: rgb(255, 255, 255); /* Change to your desired confetti color */
        border-radius: 50%;
-       animation: fall 2s linear infinite;
+       animation: spread 2s linear infinite;
    }
 /*confetti ka animation*/
-   @keyframes fall {
+   @keyframes spread {
        0% {
            transform: translate(var(--x), var(--y)) rotate(0deg);
            opacity: 1;
